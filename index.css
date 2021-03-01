@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#box {
+  width: 600px;
+  margin: 50px auto;
+}
+
+#box header {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  background-color: #17a;
+  padding: 0 10px;
+}
+
+#box header span {
+  cursor: pointer;
+}
+
+#box header span.fl {
+  float: left;
+}
+
+#box header span.fr {
+  float: right;
+}
+
+#box header div {
+  font-size: 30px;
+}
+
+#box table {
+  border: 1px solid #ccc;
+}
+
+#box table th,
+#box table td {
+  border: 1px solid #ccc;
+  text-align: center;
+  height: 30px;
+}
+
+.sunday,
+.saturday,
+#box table td:first-child,
+#box table td:last-child {
+  color: #aaa;
+}
+
+.showTime,
+.haveTime,
+.comeon {
+  font-size: 30px;
+  color: #17a;
+  text-align: center;
+  margin-top: 100px;
+}
