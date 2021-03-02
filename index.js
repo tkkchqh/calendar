@@ -30,13 +30,13 @@ $(function () {
     }
 
     // 多余行隐藏,否则显示
-    if (allTd[[28]].text() === '') {
+    if (allTd[28].text() === '') {
       allTd[28].parent().hide()
       allTd[35].parent().hide()
     } else if (allTd[[35]].text() === '') {
       allTd[35].parent().hide()
     } else {
-      allTd[28].parent().hide()
+      allTd[28].parent().show()
       allTd[35].parent().show()
     }
   }
